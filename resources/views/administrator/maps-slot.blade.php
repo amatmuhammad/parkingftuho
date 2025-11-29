@@ -78,7 +78,7 @@
         <form id="formAddArea">
           <div class="mb-3">
             <label for="areaName">Nama Area</label>
-            <input type="text" id="areaName" name="name" class="form-control" required>
+            <input type="text" id="areaName" name="name" class="form-control" placeholder="Masukkan Nama Area Contoh : A1" required>
           </div>
           <div class="mb-3">
             <label for="areaGate">Gate</label>
@@ -119,7 +119,7 @@
 <div class="modal fade" id="modalAddSlot" tabindex="-1" aria-labelledby="modalAddSlotLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
-      <div class="modal-header bg-primary text-white">
+      <div class="modal-header bg-info text-white">
         <h5 class="modal-title" id="modalAddSlotLabel">Tambah Data Slot Parkir</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span>&times;</span>
@@ -140,7 +140,7 @@
         <form id="formAddSlot">
           <div class="mb-3">
             <label for="slotName">Nama Slot</label>
-            <input type="text" id="slotName" name="name" class="form-control" required>
+            <input type="text" id="slotName" name="name" class="form-control" placeholder="Masukkan Nama Slot Sesuai Area Parkir Misal A1" required>
           </div>
           <div class="mb-3">
             <label for="slotArea">Pilih Area</label>

@@ -122,11 +122,11 @@
                                 </div>
 
                                 <div class="col-lg-12 text-center">
-                                    <button type="submit" class="btn btn-block btn-primary">Sign In</button>
+                                    <button type="submit" class="btn btn-block btn-rounded btn-primary">Login</button>
                                 </div>
 
                                 <div class="col-lg-12 text-center mt-3 mb-5">
-                                    <a href="{{ route('register') }}" class="btn btn-block btn-secondary">Sign Up</a>
+                                    <a href="{{ route('register') }}" class="btn btn-block btn-rounded btn-secondary">Register Account</a>
                                 </div>
 
                             </div>

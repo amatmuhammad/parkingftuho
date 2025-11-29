@@ -52,7 +52,7 @@
 
     button.btn-primary {
         height: 45px;
-        border-radius: 10px;
+        /* border-radius: 10px;  */
     }
 
     button.btn-secondary {
@@ -128,9 +128,9 @@
                         <span class="password-toggle" id="togglePwd2">👁️</span>
                     </div>
 
-                    <button type="submit" class="btn btn-primary btn-block mb-3">Register</button>
+                    <button type="submit" class="btn btn-primary btn-rounded btn-block mb-3">Register</button>
 
-                    <a href="{{ route('login') }}" class="btn btn-secondary btn-block">Back to Login</a>
+                    <a href="{{ route('login') }}" class="btn btn-secondary btn-rounded btn-block">Back to Login</a>
 
                 </form>
 

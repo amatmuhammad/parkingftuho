@@ -53,7 +53,7 @@
                                         <td class="text-center">{{ $index + 1 }}</td>
                                         <td>
                                             <div class="d-flex align-items-center">
-                                                <img src="https://i.pravatar.cc/45?img={{ $index + 1 }}" class="rounded-circle me-2" width="45" height="45">
+                                                {{-- <img src="https://i.pravatar.cc/45?img={{ $index + 1 }}" class="rounded-circle me-2" width="45" height="45"> --}}
                                                 <div>
                                                     <h6 class="mb-0">{{ $reservation->user->name ?? '-' }}</h6>
                                                     <small class="text-muted">{{ $reservation->user->email ?? '-' }}</small>
@@ -313,7 +313,7 @@ function loadActiveParkings() {
                         index + 1,
                         `
                         <div class="d-flex align-items-center">
-                            <img src="https://i.pravatar.cc/45?img=${index + 1}" class="rounded-circle me-2" width="45" height="45">
+                            
                             <div>
                                 <h6 class="mb-0">${r.user.name}</h6>
                                 <small class="text-muted">${r.user.email}</small>
